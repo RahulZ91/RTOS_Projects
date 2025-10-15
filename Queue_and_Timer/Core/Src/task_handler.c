@@ -6,6 +6,7 @@
  */
 
 #include "main.h"
+extern UART_HandleTypeDef huart2;
 
 void process_command(command_t *cmd); // notify the tasks based on command
 int extract_command(command_t *cmd); // extract the bytes from the command
@@ -26,7 +27,7 @@ void menu_task(void *param)
 					         "Date and Time ---------->1     \n"
 					         "Exit ------------------->2      \n"
 			                 "Enter your choice here  :       ";
-			const char* msg_invalid="Invalid option";
+			const char* msg_invalid="Invalid option \n";
 	while(1)
 	{
 		xQueueSend(q_print,&msg_menu,portMAX_DELAY);
@@ -58,6 +59,7 @@ void menu_task(void *param)
 		{
 			//Invalid option
 			xQueueSend(q_print,&msg_invalid,portMAX_DELAY);
+			continue;
 		}
 
 		//Exit for this
@@ -88,9 +90,11 @@ void cmd_task(void *param)
 
 void print_task(void *param)
 {
+	uint32_t *msg;
 	while(1)
 	{
-
+		xQueueReceive(q_print, &msg, portMAX_DELAY);
+		HAL_UART_Transmit(&huart2, (uint8_t *)msg, strlen((char *)msg), HAL_MAX_DELAY);
 	}
 }
 
