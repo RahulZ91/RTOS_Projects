@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
+	<list key="searchhistory">
+		<item value="LD2_Pin"/>
+		<item value="LED_USER"/>
+		<item value="configUSE_TRACE_FACILITY"/>
+		<item value="xTaskCreate"/>
+		<item value="uart"/>
+		<item value="u"/>
+		<item value="SEGGER_SYSVIEW_Start"/>
+		<item value="SEGGER_SYSVIEW_Conf"/>
+		<item value="overflow"/>
+		<item value="stackoverflow"/>
+	</list>
+</section>

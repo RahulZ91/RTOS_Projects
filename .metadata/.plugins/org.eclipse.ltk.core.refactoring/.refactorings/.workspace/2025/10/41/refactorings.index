@@ -1,0 +1,6 @@
+1759755816472	Delete resource 'User_Button_LED'
+1759759503409	Delete resource 'User_Button_User_LED'
+1759828818915	Delete resource 'HookFunctions/RTOS_related_files/ThirdParty/SEGGER/Config/FreeRTOS.h'
+1759830288280	Delete resource 'HookFunctions'
+1760084371975	Delete resource 'Queue_and_Timer/Core/Src/rtc_timer'
+1760084410984	Delete resource 'Queue_and_Timer/Core/Src/led_effects'

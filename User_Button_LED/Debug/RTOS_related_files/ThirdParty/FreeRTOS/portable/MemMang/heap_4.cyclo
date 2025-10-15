@@ -1,0 +1,8 @@
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:115:8:pvPortMalloc	17
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:275:6:vPortFree	6
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:324:8:xPortGetFreeHeapSize	1
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:330:8:xPortGetMinimumEverFreeHeapSize	1
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:336:6:vPortInitialiseBlocks	1
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:342:13:prvHeapInit	2
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:390:13:prvInsertBlockIntoFreeList	6
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:453:6:vPortGetHeapStats	5

@@ -1,0 +1,24 @@
+RTOS_related_files/ThirdParty/FreeRTOS/queue.o: \
+ ../RTOS_related_files/ThirdParty/FreeRTOS/queue.c \
+ F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/FreeRTOS.h \
+ ../Core/Inc/FreeRTOSConfig.h \
+ F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/projdefs.h \
+ F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/portable.h \
+ F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
+ F:\Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
+ F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
+ F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/task.h \
+ F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/list.h \
+ F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/queue.h \
+ F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/task.h
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/FreeRTOS.h:
+../Core/Inc/FreeRTOSConfig.h:
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/projdefs.h:
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/portable.h:
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
+F:\Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/task.h:
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/list.h:
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/queue.h:
+F:/Knowledge_Update/workspace_1.19.0/RTOS_Workspace/RTOS_related_files/ThirdParty/FreeRTOS/include/task.h:
