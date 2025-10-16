@@ -55,7 +55,10 @@ extern BaseType_t status;
 
 extern TimerHandle_t handle_led_timer[4];  // each element of the array will handle one timer object for one led effect
 
+extern UART_HandleTypeDef huart2;
+extern RTC_HandleTypeDef hrtc;
 
+extern TimerHandle_t rtc_timer;
 typedef struct
 {
 	uint8_t payload[10];
@@ -109,6 +112,12 @@ void turn_on_all_leds_1000ms(void);
 void turn_off_all_leds_1000ms(void);
 void turn_on_all_leds_2000ms(void);
 void turn_off_all_leds_2000ms(void);
+
+void show_time_date(void);
+void show_time_date_itm(void);
+void rtc_configure_time(RTC_TimeTypeDef *time);
+void rtc_configure_date(RTC_DateTypeDef *date);
+int validate_rtc_information(RTC_TimeTypeDef *time , RTC_DateTypeDef *date);
 
 /* USER CODE END EFP */
 

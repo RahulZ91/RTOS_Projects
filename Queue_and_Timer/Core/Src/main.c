@@ -60,7 +60,7 @@ TaskHandle_t handle_menu_task;
   state_t curr_state=sMainMenu;
 
   TimerHandle_t handle_led_timer[4];  // each element of the array will handle one timer object for one led effect
-
+  TimerHandle_t rtc_timer;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -121,8 +121,8 @@ int main(void)
   status=xTaskCreate(led_task,"LED task",200,NULL,2,&handle_led_task);
   configASSERT(status == pdPASS);
 
-  //status=xTaskCreate(rtc_task,"RTC task",200,NULL,2,&handle_rtc_task);
-   //configASSERT(status == pdPASS);
+  status=xTaskCreate(rtc_task,"RTC task",200,NULL,2,&handle_rtc_task);
+  configASSERT(status == pdPASS);
 
    // Queue creation
    q_data = xQueueCreate(10,sizeof(char)); // no of items is 10 and each item is of size char

@@ -1,10 +1,10 @@
-17:30:34 **** Incremental Build of configuration Debug for project Queue_and_Timer ****
+13:58:21 **** Incremental Build of configuration Debug for project Queue_and_Timer ****
 make -j8 all 
 arm-none-eabi-size  Queue_and_Timer.elf 
    text	   data	    bss	    dec	    hex	filename
-  29948	     36	  79020	 109004	  1a9cc	Queue_and_Timer.elf
+  35824	    128	  79440	 115392	  1c2c0	Queue_and_Timer.elf
 Finished building: default.size.stdout
  
 
-17:30:35 Build Finished. 0 errors, 0 warnings. (took 408ms)
+13:58:22 Build Finished. 0 errors, 0 warnings. (took 450ms)
 
