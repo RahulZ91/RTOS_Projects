@@ -3,6 +3,7 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="msg_inv"/>
 		<item value="LD2_Pin"/>
 		<item value="LED_USER"/>
 		<item value="configUSE_TRACE_FACILITY"/>
